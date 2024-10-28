@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+:root {
+    scrollbar-width: none;
+}
+
+/* Sets up a page, that has 100% height and doesnt overflow */
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+body {
+    /* Using only 98 vh, because the page overflows at 100 for whatever reason - actually not, because the code above fixes the height issues */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    font-family: 'Cinzel';
+}
+
+.header {
+    color: red;
+}
+
+.red_black_button {
+    height: 35px;
+    width: 290px;
+    color: red;
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 10px;
+    font-family: 'Cinzel';
+    font-size: 18px;
+    font-weight: 600;
+    justify-self: center;
+    
+}
+
+.red_black_button:hover {
+    color: black;
+    background-color: red;
+}
+
+.red_black_button:active {
+    color: white;
+    background-color: crimson;
+}
+
+.search {
+    height: 30px;
+    width: 580px;
+    border: 3px solid red;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Cinzel';
+    font-weight: 600;
+    color: red;
+    padding-left: 10px;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+    font-family: 'Cinzel';
+}
+
+.footer {
+    color: red;
+}
+
+input {
+    display:block;
+    margin-top: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: crimson;
+    max-width: 580px;
+    text-align: center;
+    justify-self: center;
+}
+
+label {
+    color: crimson;
+    font-size: 1.1rem;
+}
+
+.searchfield {
+    margin: 20px;
+}

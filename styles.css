@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex: 0 0;
+    flex-wrap: wrap;
+    max-width: 600px;
+    padding-bottom: 200px;
+}
+
+.red_black_button {
+    height: 35px;
+    width: 290px;
+    color: red;
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 10px;
+    font-family: 'Cinzel';
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.red_black_button:hover {
+    color: black;
+    background-color: red;
+    cursor: grab;
+    font-family: 'Cinzel';
+}
+
+.red_black_button:active {
+    background-color: crimson;
+}
+
+h1 {
+    color: crimson;
+    font-family: 'Cinzel';
+}
+
+.search {
+    height: 30px;
+    width: 580px;
+    border: 3px solid red;
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Cinzel';
+    font-weight: 600;
+    color: red;
+    padding-left: 10px;
+}
+
+a:link {
+    color: red;
+    font-family: 'Cinzel';
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: pink;
+    font-family: 'Cinzel';
+}
+
+.footer {
+    color: red;
+}
+
+input{
+    margin-top: 0px;
+}

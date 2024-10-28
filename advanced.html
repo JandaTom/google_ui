@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced.css">
+    <title>Advanced search</title>
+</head>
+<body>
+    <div class="header">
+        <a href="/pictures.html">Image search</a>
+        <a href="/index.html">Search</a>
+    </div>
+    <!-- udm=2 parameter that links user to picture search ie. google.com/search?q=cat&udm=2 -->
+    <!-- btnI=I%27m+Feeling+Lucky -->
+    <!-- Vytvo5it design, kde by formulare byli rozhozene po strance - zapojeni JS -->
+    <div class="forms">
+        <h1>Tell me, user, what are your deepest, darkest desires.<br> Except, in great detail, please.</h1>
+        <form action="https://www.google.com/search">
+
+            <div class="searchfield">
+                <label for="allwords">Inlcude all these words:</label>
+                <input type="text" id="allwords" name="as_q" class="search">
+            </div>
+
+            <div class="searchfield">
+                <label for="exactsearch">Inlcude exactly these words, or phrases:</label>
+                <input type="text" id="exactsearch" name="as_epq" class="search">
+            </div>
+
+            <div class="searchfield">
+                <label for="anywords">Inlcude any of these words:</label>
+                <input type="text" id="anywords" name="as_oq" class="search">
+            </div>
+
+            <div class="searchfield">
+                <label for="nonewords">Inlcude none of these words:</label>
+                <input type="text" id="nonewords" name="as_eq" class="search">
+            </div>
+            <input type="submit" class="red_black_button" value="Have all of my secrets!">
+        </form>
+    </div>
+    <div class="footer">
+        <p>Created by JandaTom - <a href="github.com/JandaTom">Github</a></p>
+    </div>
+</body>
+</html>
